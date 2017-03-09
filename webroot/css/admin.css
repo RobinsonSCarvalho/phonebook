@@ -1,0 +1,51 @@
+.required .note-editor.note-frame,
+.required .bootstrap-tagsinput,
+.required .tokenfield,
+.required>.input-group>select,
+.required>.input-group>textarea,
+.required>.input-group>input,
+.required>select,
+.required>textarea,
+.required>input
+{
+    border-left: 1px solid red !important;
+}
+
+.help-block{
+    display: block;
+    margin-bottom: 0;
+    color: #bdabff;
+    text-align: right;
+}
+
+.tab-base .tab-content{
+    background-color: #fff; 
+    box-shadow: none; 
+    border-bottom-left-radius: initial; 
+    border-bottom-right-radius: initial; 
+    padding: initial; 
+}
+
+.img-lg {
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 100px;
+    min-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.form-control-static {
+    min-height: 18px;
+    padding-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+.form-group-static .form-control{
+    background: #efefef;
+}
+.side-nav li{
+    list-style: none;
+    float: right;
+}
